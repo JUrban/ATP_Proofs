@@ -21,82 +21,6 @@ http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/group_2.html#T113
 E proof: http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t113_group_2
 217 fof axioms, 298 initial clauses, 1214 nontriv given, 8523 nontriv gener, 109 proof clause steps, 28/44 initial proof flas/clauses
 
-### Longer proof about programs and sequences with 59/663 used/initial axioms
-/home/mptp/big1/bushy_np/en_gnn/convert-models/grid28_60/mzr02-premsel_enigma_01_2020_T10_loop01_epoch_66-query768-ctx1536-w0-coop/t64_compos_1
-http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/compos_1.html#T64
-
-```
-% Generated clauses                    : 38354
-% ...of the previous two non-trivial   : 36601
-% Processed clauses                    : 5785
-% ...remaining for further processing  : 3336
-% Parsed axioms                        : 663
-% Initial clauses in saturation        : 1212
-% Proof object initial clauses used    : 78
-% Proof object initial formulas used   : 59
-% Proof object clause steps            : 158
-```
-
-### Topology
-for T being non empty discrete TopSpace holds T is T_2
-
-http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/yellow13.html#T4
-
-(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid28_60/mzr02-premsel_enigma_01_2020_T10_loop01_epoch_66-query768-ctx1536-w0-coop$ less t4_yellow13  
-
-```
-% Parsed axioms                        : 194
-% Initial clauses in saturation        : 279
-% Proof object clause steps            : 103
-% Proof object initial clauses used    : 36
-% Proof object initial formulas used   : 23
-% Processed clauses                    : 3866
-% ...remaining for further processing  : 1758
-% Generated clauses                    : 36890
-% ...of the previous two non-trivial   : 32976
-```
-
-### Connectedness 
-
-for GX being TopSpace holds
-( ex x being Point of GX st
-for y being Point of GX holds x,y are_joined iff for x, y being Point of GX holds x,y are_joined )
-
-http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/connsp_1.html#T29
-
-```
-% Proof object clause steps            : 99
-% Proof object initial clauses used    : 32
-% Proof object initial formulas used   : 17
-% Parsed axioms                        : 74
-% Initial clauses in saturation        : 99
-% Processed clauses                    : 1940
-% ...remaining for further processing  : 1069
-% Generated clauses                    : 28829
-% ...of the previous two non-trivial   : 27799
-```
-
-### Topology - product of T_0 spaces is T_0
-for M being non empty set
-for J being non-Empty TopStruct-yielding ManySortedSet of M st ( for i being Element of M holds J . i is T_0 TopSpace ) holds
-product J is T_0
-
-http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/yellow14.html#T37
-
-mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500/l8-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_51-query128-ctx1024-w0-coop$ 
-
-```
-% Proof object clause steps            : 98
-% Proof object initial clauses used    : 44
-% Proof object initial formulas used   : 23
-% Parsed axioms                        : 188
-% Initial clauses in saturation        : 319
-% Processed clauses                    : 2185
-% ...remaining for further processing  : 1408
-% Generated clauses                    : 9227
-% ...of the previous two non-trivial   : 7578
-% User time                : 20.956 s
-```
 
 ### Enigma can differentiate
 
@@ -121,6 +45,7 @@ http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t89_sin_cos9
 
 
 ### Additivity of integral
+
 http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/mesfunc5.html#T93
 
 f is nonnegative & A c= B holds Integral (M,(f | A)) <= Integral (M,(f | B))
@@ -171,6 +96,114 @@ The fact that it generated only 2.8k clauses during 734 nontrivial given clause 
 
 
 
+### Topology - discrete is T_2
+for T being non empty discrete TopSpace holds T is T_2
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/yellow13.html#T4
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid28_60/mzr02-premsel_enigma_01_2020_T10_loop01_epoch_66-query768-ctx1536-w0-coop$ less t4_yellow13  
+
+```
+% Parsed axioms                        : 194
+% Initial clauses in saturation        : 279
+% Proof object clause steps            : 103
+% Proof object initial clauses used    : 36
+% Proof object initial formulas used   : 23
+% Processed clauses                    : 3866
+% ...remaining for further processing  : 1758
+% Generated clauses                    : 36890
+% ...of the previous two non-trivial   : 32976
+```
+
+### Connectedness - all points are joined if some is joined to all:
+
+for GX being TopSpace holds
+( ex x being Point of GX st
+for y being Point of GX holds x,y are_joined iff for x, y being Point of GX holds x,y are_joined )
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/connsp_1.html#T29
+
+```
+% Proof object clause steps            : 99
+% Proof object initial clauses used    : 32
+% Proof object initial formulas used   : 17
+% Parsed axioms                        : 74
+% Initial clauses in saturation        : 99
+% Processed clauses                    : 1940
+% ...remaining for further processing  : 1069
+% Generated clauses                    : 28829
+% ...of the previous two non-trivial   : 27799
+```
+
+### Topology - product of T_0 spaces is T_0
+
+for M being non empty set
+for J being non-Empty TopStruct-yielding ManySortedSet of M st ( for i being Element of M holds J . i is T_0 TopSpace ) holds
+product J is T_0
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/yellow14.html#T37
+
+mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500/l8-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_51-query128-ctx1024-w0-coop$ 
+
+```
+% Proof object clause steps            : 98
+% Proof object initial clauses used    : 44
+% Proof object initial formulas used   : 23
+% Parsed axioms                        : 188
+% Initial clauses in saturation        : 319
+% Processed clauses                    : 2185
+% ...remaining for further processing  : 1408
+% Generated clauses                    : 9227
+% ...of the previous two non-trivial   : 7578
+% User time                : 20.956 s
+```
+
+### Cardinalities:
+1 -tuples_on D,D are_equipotent & card (1 -tuples_on D) = card D 
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_4.html#T8
+
+http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t8_card_4
+
+```
+% Proof object clause steps            : 90
+% Proof object initial clauses used    : 35
+% Proof object initial formulas used   : 20
+% Parsed axioms                        : 301
+% Initial clauses in saturation        : 508
+% Processed clauses                    : 1262
+% ...remaining for further processing  : 932
+% Generated clauses                    : 6827
+% ...of the previous two non-trivial   : 6260
+```
+
+### Divergence of locally greater function
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/limfunc2.html#T37
+
+### Cardinalities
+ X,[:X,{x}:] are_equipotent & card X = card [:X,{x}:] 
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_2.html#T6
+
+
+### Longer proof about programs and sequences with 59/663 used/initial axioms
+/home/mptp/big1/bushy_np/en_gnn/convert-models/grid28_60/mzr02-premsel_enigma_01_2020_T10_loop01_epoch_66-query768-ctx1536-w0-coop/t64_compos_1
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/compos_1.html#T64
+
+```
+% Generated clauses                    : 38354
+% ...of the previous two non-trivial   : 36601
+% Processed clauses                    : 5785
+% ...remaining for further processing  : 3336
+% Parsed axioms                        : 663
+% Initial clauses in saturation        : 1212
+% Proof object initial clauses used    : 78
+% Proof object initial formulas used   : 59
+% Proof object clause steps            : 158
+```
+
+
 ### Longish proof in INT_5
 http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/int_5.html#T3
 
@@ -208,32 +241,4 @@ http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/orders_1.html#T45
 % ...of the previous two non-trivial   : 27676
 % User time                : 22.204 s
 ```
-
-### Cardinalities:
-1 -tuples_on D,D are_equipotent & card (1 -tuples_on D) = card D 
-
-http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_4.html#T8
-
-http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t8_card_4
-
-```
-% Proof object clause steps            : 90
-% Proof object initial clauses used    : 35
-% Proof object initial formulas used   : 20
-% Parsed axioms                        : 301
-% Initial clauses in saturation        : 508
-% Processed clauses                    : 1262
-% ...remaining for further processing  : 932
-% Generated clauses                    : 6827
-% ...of the previous two non-trivial   : 6260
-```
-
-### Divergence of locally greater function
-
-http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/limfunc2.html#T37
-
-### Cardinalities
- X,[:X,{x}:] are_equipotent & card X = card [:X,{x}:] 
-
-http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_2.html#T6
 
