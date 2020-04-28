@@ -24,15 +24,15 @@ E proof: http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t113_group_2
 ### longer proof about programs and sequences with 59/663 used/initial axioms
 /home/mptp/big1/bushy_np/en_gnn/convert-models/grid28_60/mzr02-premsel_enigma_01_2020_T10_loop01_epoch_66-query768-ctx1536-w0-coop/t64_compos_1
 http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/compos_1.html#T64
-# Generated clauses                    : 38354
-# ...of the previous two non-trivial   : 36601
-# Processed clauses                    : 5785
-# ...remaining for further processing  : 3336
-# Parsed axioms                        : 663
-# Initial clauses in saturation        : 1212
-# Proof object initial clauses used    : 78
-# Proof object initial formulas used   : 59
-# Proof object clause steps            : 158
+% Generated clauses                    : 38354
+% ...of the previous two non-trivial   : 36601
+% Processed clauses                    : 5785
+% ...remaining for further processing  : 3336
+% Parsed axioms                        : 663
+% Initial clauses in saturation        : 1212
+% Proof object initial clauses used    : 78
+% Proof object initial formulas used   : 59
+% Proof object clause steps            : 158
 
 ### topology
 for T being non empty discrete TopSpace holds T is T_2
@@ -40,15 +40,15 @@ for T being non empty discrete TopSpace holds T is T_2
 http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/yellow13.html#T4
 
 (base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid28_60/mzr02-premsel_enigma_01_2020_T10_loop01_epoch_66-query768-ctx1536-w0-coop$ less t4_yellow13  
-# Parsed axioms                        : 194
-# Initial clauses in saturation        : 279
-# Proof object clause steps            : 103
-# Proof object initial clauses used    : 36
-# Proof object initial formulas used   : 23
-# Processed clauses                    : 3866
-# ...remaining for further processing  : 1758
-# Generated clauses                    : 36890
-# ...of the previous two non-trivial   : 32976
+% Parsed axioms                        : 194
+% Initial clauses in saturation        : 279
+% Proof object clause steps            : 103
+% Proof object initial clauses used    : 36
+% Proof object initial formulas used   : 23
+% Processed clauses                    : 3866
+% ...remaining for further processing  : 1758
+% Generated clauses                    : 36890
+% ...of the previous two non-trivial   : 32976
 
 ### connectedness 
 http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/connsp_1.html#T29
@@ -56,15 +56,15 @@ for GX being TopSpace holds
 ( ex x being Point of GX st
 for y being Point of GX holds x,y are_joined iff for x, y being Point of GX holds x,y are_joined )
 
-# Proof object clause steps            : 99
-# Proof object initial clauses used    : 32
-# Proof object initial formulas used   : 17
-# Parsed axioms                        : 74
-# Initial clauses in saturation        : 99
-# Processed clauses                    : 1940
-# ...remaining for further processing  : 1069
-# Generated clauses                    : 28829
-# ...of the previous two non-trivial   : 27799
+% Proof object clause steps            : 99
+% Proof object initial clauses used    : 32
+% Proof object initial formulas used   : 17
+% Parsed axioms                        : 74
+% Initial clauses in saturation        : 99
+% Processed clauses                    : 1940
+% ...remaining for further processing  : 1069
+% Generated clauses                    : 28829
+% ...of the previous two non-trivial   : 27799
 
 
 ### topology - product of T_0 spaces is T_0
@@ -77,16 +77,16 @@ http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/yellow14.html#T37
 mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500/l8-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_51-query128-ctx1024-w0-coop$ 
 
 
-# Proof object clause steps            : 98
-# Proof object initial clauses used    : 44
-# Proof object initial formulas used   : 23
-# Parsed axioms                        : 188
-# Initial clauses in saturation        : 319
-# Processed clauses                    : 2185
-# ...remaining for further processing  : 1408
-# Generated clauses                    : 9227
-# ...of the previous two non-trivial   : 7578
-# User time                : 20.956 s
+% Proof object clause steps            : 98
+% Proof object initial clauses used    : 44
+% Proof object initial formulas used   : 23
+% Parsed axioms                        : 188
+% Initial clauses in saturation        : 319
+% Processed clauses                    : 2185
+% ...remaining for further processing  : 1408
+% Generated clauses                    : 9227
+% ...of the previous two non-trivial   : 7578
+% User time                : 20.956 s
 
 ### longish proof in INT_5
 http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/int_5.html#T3
@@ -96,15 +96,15 @@ for fp being FinSequence of INT st len fp = 1 holds Poly-INT fp = INT --> (fp . 
 (base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500/l5-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_45-query256-ctx1536-w0-coop$ less t3_int_5
 
 
-# Proof object clause steps            : 153
-# Proof object initial clauses used    : 76
-# Proof object initial formulas used   : 59
-# Parsed axioms                        : 404
-# Initial clauses in saturation        : 656
-# Processed clauses                    : 2547
-# ...remaining for further processing  : 1849
-# Generated clauses                    : 11674
-# ...of the previous two non-trivial   : 10831
+% Proof object clause steps            : 153
+% Proof object initial clauses used    : 76
+% Proof object initial formulas used   : 59
+% Parsed axioms                        : 404
+% Initial clauses in saturation        : 656
+% Processed clauses                    : 2547
+% ...remaining for further processing  : 1849
+% Generated clauses                    : 11674
+% ...of the previous two non-trivial   : 10831
 
 ### longish proof in ORDERS_1
 
@@ -113,16 +113,16 @@ for R being Relation for X being set st R partially_orders X holds R |_ 2 X is O
 http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/orders_1.html#T45
 
 
-# Proof object clause steps            : 132
-# Proof object initial clauses used    : 46
-# Proof object initial formulas used   : 26
-# Parsed axioms                        : 218
-# Initial clauses in saturation        : 347
-# Processed clauses                    : 3985
-# ...remaining for further processing  : 1852
-# Generated clauses                    : 30744
-# ...of the previous two non-trivial   : 27676
-# User time                : 22.204 s
+% Proof object clause steps            : 132
+% Proof object initial clauses used    : 46
+% Proof object initial formulas used   : 26
+% Parsed axioms                        : 218
+% Initial clauses in saturation        : 347
+% Processed clauses                    : 3985
+% ...remaining for further processing  : 1852
+% Generated clauses                    : 30744
+% ...of the previous two non-trivial   : 27676
+% User time                : 22.204 s
 
 ### cardinalities:
 1 -tuples_on D,D are_equipotent & card (1 -tuples_on D) = card D 
@@ -131,15 +131,15 @@ http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_4.html#T8
 
 http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t8_card_4
 
-# Proof object clause steps            : 90
-# Proof object initial clauses used    : 35
-# Proof object initial formulas used   : 20
-# Parsed axioms                        : 301
-# Initial clauses in saturation        : 508
-# Processed clauses                    : 1262
-# ...remaining for further processing  : 932
-# Generated clauses                    : 6827
-# ...of the previous two non-trivial   : 6260
+% Proof object clause steps            : 90
+% Proof object initial clauses used    : 35
+% Proof object initial formulas used   : 20
+% Parsed axioms                        : 301
+% Initial clauses in saturation        : 508
+% Processed clauses                    : 1262
+% ...remaining for further processing  : 932
+% Generated clauses                    : 6827
+% ...of the previous two non-trivial   : 6260
 
 ### divergence of loaclly greater function
 
@@ -160,16 +160,16 @@ The E proof is at http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t72_newton
 
 Modulo the fact that we gave it 328 FOF axioms translated to 549 initial clauses, the proof stats seem easy:
 
-# Proof object clause steps            : 83
-# Proof object initial clauses used    : 42
-# Proof object initial formulas used   : 38
-# Parsed axioms                        : 328
-# Initial clauses in saturation        : 549
-# Processed clauses                    : 880
-# ...remaining for further processing  : 734
-# Generated clauses                    : 3135
-# ...of the previous two non-trivial   : 2856
-# User time                : 6.772 s
+% Proof object clause steps            : 83
+% Proof object initial clauses used    : 42
+% Proof object initial formulas used   : 38
+% Parsed axioms                        : 328
+% Initial clauses in saturation        : 549
+% Processed clauses                    : 880
+% ...remaining for further processing  : 734
+% Generated clauses                    : 3135
+% ...of the previous two non-trivial   : 2856
+% User time                : 6.772 s
 
 The only issue is that no prover could do it before and that I got the proof with only one parameterization of Enigma out of 800 :-). (l8-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_67-query128-ctx768-w0-solo).
 
@@ -182,15 +182,15 @@ f is nonnegative & A c= B holds Integral (M,(f | A)) <= Integral (M,(f | B))
 
 http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t93_mesfunc5
 
-# Proof object clause steps            : 126
-# Proof object initial clauses used    : 53
-# Proof object initial formulas used   : 29
-# Parsed axioms                        : 441
-# Initial clauses in saturation        : 670
-# Processed clauses                    : 3725
-# ...remaining for further processing  : 2236
-# Generated clauses                    : 14044
-# ...of the previous two non-trivial   : 13075
+% Proof object clause steps            : 126
+% Proof object initial clauses used    : 53
+% Proof object initial formulas used   : 29
+% Parsed axioms                        : 441
+% Initial clauses in saturation        : 670
+% Processed clauses                    : 3725
+% ...remaining for further processing  : 2236
+% Generated clauses                    : 14044
+% ...of the previous two non-trivial   : 13075
 
 (base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500/l5-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_4-query512-ctx768-w0-coop$ 
 
@@ -202,13 +202,13 @@ http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/sin_cos9.html#T89
 
 http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t89_sin_cos9
 
-# Proof object clause steps            : 143
-# Proof object initial clauses used    : 62
-# Proof object initial formulas used   : 45
-# Parsed axioms                        : 643
-# Initial clauses in saturation        : 834
-# Processed clauses                    : 4037
-# ...remaining for further processing  : 2341
-# Generated clauses                    : 18764
-# ...of the previous two non-trivial   : 16507
-# User time                : 28.020 s
+% Proof object clause steps            : 143
+% Proof object initial clauses used    : 62
+% Proof object initial formulas used   : 45
+% Parsed axioms                        : 643
+% Initial clauses in saturation        : 834
+% Processed clauses                    : 4037
+% ...remaining for further processing  : 2341
+% Generated clauses                    : 18764
+% ...of the previous two non-trivial   : 16507
+% User time                : 28.020 s
