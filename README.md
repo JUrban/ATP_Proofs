@@ -1,5 +1,6 @@
 # Interesting ATP Proofs
  
+
 ### Lipschitzian is uniformly continuous: 
 http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ncfcont2.html#T25
 
@@ -22,7 +23,18 @@ E proof: http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t113_group_2
 217 fof axioms, 298 initial clauses, 1214 nontriv given, 8523 nontriv gener, 109 proof clause steps, 28/44 initial proof flas/clauses
 
 
-### Enigma can differentiate
+### Enigma differentiates: (ln * cos) `| Z) . x = - (tan x) 
+
+Nice theorem about the derivation of ln(cos) proved by Enigma/lgb in loop2 (IJCAR'20 experiments):
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fdiff_4.html#T42
+
+The E proof is at http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t42_fdiff_4.out
+
+It takes 190 clausal inferences and 37 fof axioms (52 clauses). The original problem size is 268 axioms (348 clauses). The search took 2k nontrivial given-clause loops and generated (only) 14k nontrivial clauses.
+
+
+### Another on Enigma differentiating
 
 http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/sin_cos9.html#T89
 
