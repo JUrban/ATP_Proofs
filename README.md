@@ -195,7 +195,7 @@ mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500/l8-mzr02-premsel_enig
 % User time                : 20.956 s
 ```
 
-### Rational numbers - lots of computation
+### Rational numbers - lots of computation, many proof formulas/clauses
 
 for p being Rational for l,m,k holds not numerator p = m * l or not denominator p = k * l 
 
@@ -209,7 +209,6 @@ E proof with lgb: http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t29_rat_1.out
 # Proof object clause steps            : 262
 # Proof object initial clauses used    : 69
 # Proof object initial formulas used   : 55
-# User time                : 27.157 s
 # Parsed axioms                        : 222
 # Initial clauses in saturation        : 277
 # Processed clauses                    : 7815
