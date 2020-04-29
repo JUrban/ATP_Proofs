@@ -15,6 +15,31 @@ http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/sin_cos6.html#T28
 E proof: http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t28_sin_cos6
 2175 proc, 30.6k generated, 27s, 185 steps, 71 clauses and 63 flas, - lots of calculation
 
+### Convergence in metric space and in its induced topology are the same
+
+S is_convergent_in_metrspace_to x iff S is_convergent_to x
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/frechet2.html#T28
+
+E proof (using lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t28_frechet2.out
+
+(base) mptp@air-03:/home/yan/1911-MIZAR40-ETF-IJCAR/00RESULTS/mizar40-all-T30/Enigma+mizar40-all-T10+mega-VHSLCAXPh2e15+lgb-t150-d30-l3600-e0.15+coop-mzr02$ less t28_frechet2.out
+
+```
+# Proof object clause steps            : 199
+# Proof object initial clauses used    : 63
+# Proof object initial formulas used   : 28
+# Parsed axioms                        : 308
+# Initial clauses in saturation        : 496
+# Processed clauses                    : 4243
+# ...remaining for further processing  : 3165
+# Generated clauses                    : 26575
+# ...of the previous two non-trivial   : 26184
+# User time                : 12.699 s
+```
+
+
+
 ### Groups with sets: 
 for a being Element of G for H being Subgroup of G holds ( a in H iff a * H = carr H )
 
