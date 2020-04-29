@@ -215,6 +215,30 @@ E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t33_lopban_4.out
 # User time                : 6.668 s
 ```
 
+### The lattice of subalgebras of a many-sorted algebra is lower/upper-bounded - 291-long proof
+
+for U0 being non-empty MSAlgebra over S holds MSSubAlLattice U0 is bounded
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/msualg_2.html#T33
+
+E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t33_msualg_2.out
+
+(base) mptp@air-03:/home/yan/1911-MIZAR40-ETF-IJCAR/00RESULTS/mizar40-all-T30/Enigma+mizar40-all-T10+mega-VHSLCAXPh2e15+lgb-t150-d60-l700-e0.20+coop-mzr02$ less t33_msualg_2.out
+
+```
+# Proof object clause steps            : 291
+# Proof object initial clauses used    : 81
+# Proof object initial formulas used   : 46
+# Parsed axioms                        : 255
+# Initial clauses in saturation        : 475
+# Processed clauses                    : 7051
+# ...remaining for further processing  : 2834
+# Generated clauses                    : 32864
+# ...of the previous two non-trivial   : 28335
+# User time                : 8.732 s
+
+```
+
 
 ### Topology - product of T_0 spaces is T_0
 
