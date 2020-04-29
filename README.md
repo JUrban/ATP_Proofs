@@ -38,7 +38,30 @@ E proof (using lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t28_frechet2.o
 # User time                : 12.699 s
 ```
 
+### Category theory: inverse of a composed natural equivalence is the composition of inverses
 
+for k being natural_equivalence of F1,F3 st k = e1 \`\*\` e & F1,F2 are_naturally_equivalent & F2,F3 are_naturally_equivalent holds k " = (e ") \`\*\` (e1 ")
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/functor3.html#T42
+
+E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t42_functor3.out
+
+(base) mptp@air-03:/home/yan/1911-MIZAR40-ETF-IJCAR/00RESULTS/mizar40-all-T30/Enigma+mizar40-all-T10+mega-VHSLCAXPh2e15+lgb-t150-d30-l900-e0.15+coop-mzr02$ less t42_functor3.out 
+
+```
+# Proof object clause steps            : 263
+# Proof object initial clauses used    : 64
+# Proof object initial formulas used   : 32
+# Proof object generating inferences   : 101
+# Proof object simplifying inferences  : 744
+# Parsed axioms                        : 182
+# Initial clauses in saturation        : 305
+# Processed clauses                    : 2299
+# ...remaining for further processing  : 1230
+# Generated clauses                    : 17490
+# ...of the previous two non-trivial   : 15995
+# User time                : 7.552 s
+```
 
 ### Groups with sets: 
 for a being Element of G for H being Subgroup of G holds ( a in H iff a * H = carr H )
