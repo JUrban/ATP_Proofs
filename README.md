@@ -195,7 +195,7 @@ mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500/l8-mzr02-premsel_enig
 % User time                : 20.956 s
 ```
 
-### Rational numbers
+### Rational numbers - lots of computation
 
 for p being Rational for l,m,k holds not numerator p = m * l or not denominator p = k * l 
 
