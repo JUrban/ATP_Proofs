@@ -172,6 +172,29 @@ http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/connsp_1.html#T29
 % ...of the previous two non-trivial   : 27799
 ```
 
+### Probability - counting with probabilities
+
+P . ((A /\ B) /\ C) = ((P . A) * ((P .|. A) . B)) * ((P .|. (A /\ B)) . C)
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/prob_2.html#T30
+
+E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t30_prob_2.out
+
+(base) mptp@air-03:/home/yan/1911-MIZAR40-ETF-IJCAR/00RESULTS/mizar40-all-T30/Enigma+mizar40-all-T10+mega-VHSLCAXPh2e15+lgb-t150-d50-l900-e0.15+coop-mzr02$ less t30_prob_2.out 
+```
+# Proof object clause steps            : 179
+# Proof object initial clauses used    : 57
+# Proof object initial formulas used   : 40
+# Parsed axioms                        : 233
+# Initial clauses in saturation        : 286
+# Processed clauses                    : 2746
+# ...remaining for further processing  : 1856
+# Generated clauses                    : 12511
+# ...of the previous two non-trivial   : 11325
+# User time                : 3.117 s
+```
+
+
 ### Topology - product of T_0 spaces is T_0
 
 for M being non empty set
