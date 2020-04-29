@@ -195,6 +195,30 @@ mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500/l8-mzr02-premsel_enig
 % User time                : 20.956 s
 ```
 
+### Rational numbers
+
+for p being Rational for l,m,k holds not numerator p = m * l or not denominator p = k * l 
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/rat_1.html#T29
+
+E proof with lgb: http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t29_rat_1.out
+
+(base) mptp@air-03:/home/yan/1911-MIZAR40-ETF-IJCAR/00RESULTS/mizar40-all-T30/Enigma+mizar40-all-T10+mega-VHSLCAXPh2e15+lgb-t150-d30-l1800-e0.15+coop-mzr02$ less t29_rat_1.out 
+
+```
+# Proof object clause steps            : 262
+# Proof object initial clauses used    : 69
+# Proof object initial formulas used   : 55
+# User time                : 27.157 s
+# Parsed axioms                        : 222
+# Initial clauses in saturation        : 277
+# Processed clauses                    : 7815
+# ...remaining for further processing  : 3799
+# Generated clauses                    : 163747
+# ...of the previous two non-trivial   : 151812
+# User time                : 27.157 s
+```
+
 ### Cardinalities:
 1 -tuples_on D,D are_equipotent & card (1 -tuples_on D) = card D 
 
