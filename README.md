@@ -194,6 +194,27 @@ E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t30_prob_2.out
 # User time                : 3.117 s
 ```
 
+### Convergence of exponentials in Banach spaces - 267-long proof
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/lopban_4.html#T33
+
+E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t33_lopban_4.out
+
+(base) mptp@air-03:/home/yan/1911-MIZAR40-ETF-IJCAR/00RESULTS/mizar40-all-T30/Enigma+mizar40-all-T10+mega-VHSLCAXPh2e15+lgb-t150-d30-l900-e0.15+coop-mzr02$ less t33_lopban_4.out 
+
+```
+# Proof object clause steps            : 267
+# Proof object initial clauses used    : 76
+# Proof object initial formulas used   : 33
+# Parsed axioms                        : 306
+# Initial clauses in saturation        : 444
+# Processed clauses                    : 4012
+# ...remaining for further processing  : 2859
+# Generated clauses                    : 14692
+# ...of the previous two non-trivial   : 13478
+# User time                : 6.668 s
+```
+
 
 ### Topology - product of T_0 spaces is T_0
 
