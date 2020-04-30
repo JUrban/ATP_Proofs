@@ -15,6 +15,54 @@ http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/sin_cos6.html#T28
 E proof: http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t28_sin_cos6
 2175 proc, 30.6k generated, 27s, 185 steps, 71 clauses and 63 flas, - lots of calculation
 
+### Convergence in metric space and in its induced topology are the same
+
+S is_convergent_in_metrspace_to x iff S is_convergent_to x
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/frechet2.html#T28
+
+E proof (using lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t28_frechet2.out
+
+(base) mptp@air-03:/home/yan/1911-MIZAR40-ETF-IJCAR/00RESULTS/mizar40-all-T30/Enigma+mizar40-all-T10+mega-VHSLCAXPh2e15+lgb-t150-d30-l3600-e0.15+coop-mzr02$ less t28_frechet2.out
+
+```
+# Proof object clause steps            : 199
+# Proof object initial clauses used    : 63
+# Proof object initial formulas used   : 28
+# Parsed axioms                        : 308
+# Initial clauses in saturation        : 496
+# Processed clauses                    : 4243
+# ...remaining for further processing  : 3165
+# Generated clauses                    : 26575
+# ...of the previous two non-trivial   : 26184
+# User time                : 12.699 s
+```
+
+### Category theory: inverse of a composed natural equivalence is the composition of inverses
+
+for k being natural_equivalence of F1,F3 st k = e1 \`\*\` e & F1,F2 are_naturally_equivalent & F2,F3 are_naturally_equivalent holds k " = (e ") \`\*\` (e1 ")
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/functor3.html#T42
+
+E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t42_functor3.out
+
+(base) mptp@air-03:/home/yan/1911-MIZAR40-ETF-IJCAR/00RESULTS/mizar40-all-T30/Enigma+mizar40-all-T10+mega-VHSLCAXPh2e15+lgb-t150-d30-l900-e0.15+coop-mzr02$ less t42_functor3.out 
+
+```
+# Proof object clause steps            : 263
+# Proof object initial clauses used    : 64
+# Proof object initial formulas used   : 32
+# Proof object generating inferences   : 101
+# Proof object simplifying inferences  : 744
+# Parsed axioms                        : 182
+# Initial clauses in saturation        : 305
+# Processed clauses                    : 2299
+# ...remaining for further processing  : 1230
+# Generated clauses                    : 17490
+# ...of the previous two non-trivial   : 15995
+# User time                : 7.552 s
+```
+
 ### Groups with sets: 
 for a being Element of G for H being Subgroup of G holds ( a in H iff a * H = carr H )
 
@@ -147,6 +195,74 @@ http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/connsp_1.html#T29
 % ...of the previous two non-trivial   : 27799
 ```
 
+### Probability - counting with probabilities
+
+P . ((A /\ B) /\ C) = ((P . A) * ((P .|. A) . B)) * ((P .|. (A /\ B)) . C)
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/prob_2.html#T30
+
+E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t30_prob_2.out
+
+(base) mptp@air-03:/home/yan/1911-MIZAR40-ETF-IJCAR/00RESULTS/mizar40-all-T30/Enigma+mizar40-all-T10+mega-VHSLCAXPh2e15+lgb-t150-d50-l900-e0.15+coop-mzr02$ less t30_prob_2.out 
+```
+# Proof object clause steps            : 179
+# Proof object initial clauses used    : 57
+# Proof object initial formulas used   : 40
+# Parsed axioms                        : 233
+# Initial clauses in saturation        : 286
+# Processed clauses                    : 2746
+# ...remaining for further processing  : 1856
+# Generated clauses                    : 12511
+# ...of the previous two non-trivial   : 11325
+# User time                : 3.117 s
+```
+
+### Convergence of exponentials in Banach spaces - 267-long proof
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/lopban_4.html#T33
+
+E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t33_lopban_4.out
+
+(base) mptp@air-03:/home/yan/1911-MIZAR40-ETF-IJCAR/00RESULTS/mizar40-all-T30/Enigma+mizar40-all-T10+mega-VHSLCAXPh2e15+lgb-t150-d30-l900-e0.15+coop-mzr02$ less t33_lopban_4.out 
+
+```
+# Proof object clause steps            : 267
+# Proof object initial clauses used    : 76
+# Proof object initial formulas used   : 33
+# Parsed axioms                        : 306
+# Initial clauses in saturation        : 444
+# Processed clauses                    : 4012
+# ...remaining for further processing  : 2859
+# Generated clauses                    : 14692
+# ...of the previous two non-trivial   : 13478
+# User time                : 6.668 s
+```
+
+### The lattice of subalgebras of a many-sorted algebra is lower/upper-bounded - 291-long proof
+
+for U0 being non-empty MSAlgebra over S holds MSSubAlLattice U0 is bounded
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/msualg_2.html#T33
+
+E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t33_msualg_2.out
+
+(base) mptp@air-03:/home/yan/1911-MIZAR40-ETF-IJCAR/00RESULTS/mizar40-all-T30/Enigma+mizar40-all-T10+mega-VHSLCAXPh2e15+lgb-t150-d60-l700-e0.20+coop-mzr02$ less t33_msualg_2.out
+
+```
+# Proof object clause steps            : 291
+# Proof object initial clauses used    : 81
+# Proof object initial formulas used   : 46
+# Parsed axioms                        : 255
+# Initial clauses in saturation        : 475
+# Processed clauses                    : 7051
+# ...remaining for further processing  : 2834
+# Generated clauses                    : 32864
+# ...of the previous two non-trivial   : 28335
+# User time                : 8.732 s
+
+```
+
+
 ### Topology - product of T_0 spaces is T_0
 
 for M being non empty set
@@ -168,6 +284,29 @@ mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500/l8-mzr02-premsel_enig
 % Generated clauses                    : 9227
 % ...of the previous two non-trivial   : 7578
 % User time                : 20.956 s
+```
+
+### Rational numbers - lots of computation, many proof formulas/clauses
+
+for p being Rational for l,m,k holds not numerator p = m * l or not denominator p = k * l 
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/rat_1.html#T29
+
+E proof with lgb: http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t29_rat_1.out
+
+(base) mptp@air-03:/home/yan/1911-MIZAR40-ETF-IJCAR/00RESULTS/mizar40-all-T30/Enigma+mizar40-all-T10+mega-VHSLCAXPh2e15+lgb-t150-d30-l1800-e0.15+coop-mzr02$ less t29_rat_1.out 
+
+```
+# Proof object clause steps            : 262
+# Proof object initial clauses used    : 69
+# Proof object initial formulas used   : 55
+# Parsed axioms                        : 222
+# Initial clauses in saturation        : 277
+# Processed clauses                    : 7815
+# ...remaining for further processing  : 3799
+# Generated clauses                    : 163747
+# ...of the previous two non-trivial   : 151812
+# User time                : 27.157 s
 ```
 
 ### Cardinalities:
